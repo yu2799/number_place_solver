@@ -6,7 +6,7 @@ from os import environ
 
 def main():
     # load_dotenv()
-    URL = environ["END_POINT"]
+    URL = environ["ENDPOINT"]
     main_content = {'content': '送るテキスト'}
     headers = {'Content-Type': 'application/json'}
 
