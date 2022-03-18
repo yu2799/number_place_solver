@@ -1,11 +1,11 @@
 from requests import post
 from json import dumps
 from os import environ
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
 def main():
-    load_dotenv()
+    # load_dotenv()
     URL = environ["END_POINT"]
     main_content = {'content': '送るテキスト'}
     headers = {'Content-Type': 'application/json'}
